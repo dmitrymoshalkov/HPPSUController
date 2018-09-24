@@ -14,12 +14,13 @@
 #define MY_BAUD_RATE 115200
 //#define MY_OTA_FIRMWARE_FEATURE
 
-//#define MY_RF24_CE_PIN 4
+  //#define MY_RF24_CE_PIN 4
 
 #define MY_TRANSPORT_WAIT_READY_MS 10000
 
 
 #include <MySensors.h>
+
 
 
  bool powerON(boolean bState);
@@ -135,6 +136,7 @@ Alert description
 #define FANMAILFUNCTION 3
 #define POWERSWITCHERR  4
 #define UNKNOWNERROR    5
+
 
 void countPulse() {
   // just count each pulse we see
